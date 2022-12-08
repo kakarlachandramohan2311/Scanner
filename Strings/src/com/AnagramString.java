@@ -12,6 +12,8 @@ public class AnagramString
 		char[] c=a.toCharArray();
 		char [] d= b.toCharArray();
 		boolean g=false;
+		if(a.length()==b.length())
+		{
 		for(int i=0;i<c.length;i++)
 		{
 			for(int j=0;j<d.length;j++)
@@ -22,7 +24,8 @@ public class AnagramString
 				}
 			}
 		}
-		if(true)
+		}
+		if(false)
 		{
 			System.out.println("Given String is a Anagram");
 		}
